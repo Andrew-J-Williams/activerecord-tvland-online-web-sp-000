@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
   def actors_list
-    self.characters.name if self.show_id == 
+    self.characters.name
   end
 
 end
