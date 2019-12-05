@@ -1,1 +1,1 @@
-class CreateCharacters < ActiveRecord::Migrations
+class CreateCharacters < ActiveRecord::Migration[5.1]
