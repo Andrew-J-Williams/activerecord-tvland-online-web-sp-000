@@ -4,7 +4,9 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
   def actors_list
-    self.characters.name if self.id == self.show_id
+    self.actors.map do |n|
+      "#{n.first_name} #{n.last_name}"
+    end
   end
 
 end
