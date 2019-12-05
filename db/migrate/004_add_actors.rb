@@ -1,0 +1,1 @@
+class AddActors < ActiveRecord::Migration[]
